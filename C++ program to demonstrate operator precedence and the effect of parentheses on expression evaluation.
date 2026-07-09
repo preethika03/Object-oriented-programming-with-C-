@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 5, c = 2;
+
+    cout << "Expression without parentheses (a + b * c): ";
+    cout << a + b * c << endl;
+
+    cout << "Expression with parentheses ((a + b) * c): ";
+    cout << (a + b) * c << endl;
+
+    return 0;
+}

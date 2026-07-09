@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    float b = 3.5;
+
+    // Implicit type conversion
+    float sum = a + b;
+    cout << "Implicit Type Conversion:" << endl;
+    cout << "Sum = " << sum << endl;
+
+    // Explicit type casting
+    float x = 7.8;
+    int y = (int)x;
+
+    cout << "\nExplicit Type Casting:" << endl;
+    cout << "Original float value = " << x << endl;
+    cout << "After casting to int = " << y << endl;
+
+    return 0;
+}
